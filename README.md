@@ -1,2 +1,2 @@
-# my_vs_code_setup
+# my dev productivity setup
 this repo has my dev setup : vs code , zshel , linux rices , config files
