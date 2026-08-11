@@ -1,24 +1,32 @@
 {
-    "claudeCode.preferredLocation": "panel",
-    "workbench.iconTheme": "material-icon-theme",
+  // --- Workbench UI Clean-up ---
+  "workbench.activityBar.location": "hidden",   // (replaces .visible, deprecated)
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "none",          // now a string, not boolean
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.colorTheme": "Dracula Theme Soft",
+  "workbench.layoutControl.enabled": false,
+  "workbench.iconTheme": "material-icon-theme", // file/folder icons
     "files.associations": {
         "*.dbclient-js": "javascript",
         "*.sql": "jinja-sql",
         "*.yml": "jinja-yaml",
         "*.yaml": "jinja-yaml"
     },
-    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
-    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
-    "explorer.confirmDelete": false,
-    "workbench.activityBar.location": "hidden",
-    "remote.SSH.remotePlatform": {
-        "mdo_dwh": "linux",
-        "test": "linux",
-        "bastion": "linux",
-        "app2": "linux"
-    },
-    "editor.minimap.enabled": false,
-    "workbench.statusBar.visible": false,
-    "workbench.colorTheme": "Dracula Theme Soft",
-    "workbench.sideBar.location": "right"
+  // --- Editor Clean-up ---
+  "editor.minimap.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "breadcrumbs.enabled": false,
+  "editor.matchBrackets": "never",
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+
+  // --- Clean Window Borders (OS Dependent) ---
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "toggle"
 }
