@@ -5,7 +5,6 @@
   "workbench.editor.showTabs": "none",          // now a string, not boolean
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
-  "workbench.colorTheme": "Dracula Theme Soft",
   "workbench.layoutControl.enabled": false,
   "workbench.iconTheme": "material-icon-theme", // file/folder icons
     "files.associations": {
@@ -28,5 +27,20 @@
 
   // --- Clean Window Borders (OS Dependent) ---
   "window.titleBarStyle": "custom",
-  "window.menuBarVisibility": "toggle"
+  "window.menuBarVisibility": "toggle" , 
+
+  //font and text size
+"editor.fontFamily": "JetBrains Mono NL Regular",
+  "editor.fontSize":10 ,               // bump until it's comfortable, not "acceptable"
+  "editor.fontWeight": "500",          // slightly heavier strokes read cleaner
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 1.8,            // generous spacing helps a lot with line tracking
+  "editor.letterSpacing": 0.5,
+  "editor.cursorWidth": 3,             // easier to find the caret
+  "editor.cursorBlinking": "solid",    // blinking is harder to track than a steady block
+  "editor.cursorStyle": "block",
+  "editor.wordWrap": "on",             // no horizontal scrolling to re-find your place
+  "editor.renderWhitespace": "none",
+  "terminal.integrated.fontSize": 16
+
 }
